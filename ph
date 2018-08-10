@@ -10,3 +10,7 @@ sudo apt-get install -y php7.0 php7.0-fpm php7.0-cli php7.0-common php7.0-mbstri
 sudo apt-get install -y python-software-properties
 
 apt-cache pkgnames | grep php7.1
+
+
+
+apt-get install -y php-{bcmath,bz2,intl,gd,mbstring,mcrypt,mysql,zip} && sudo apt-get install libapache2-mod-php  -y
